@@ -49,6 +49,9 @@ timofey
 
 ## Запуск
 ```
+cd my_sort_in_place
+```
+```
 python3 main.py
 ```
 

@@ -1,4 +1,5 @@
-from my_sort_in_place import Player, quicksort
+from players import Player
+from sort_in_place import quicksort
 
 
 if __name__ == '__main__':
