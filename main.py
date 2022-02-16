@@ -1,11 +1,11 @@
-from my_sort_packege import Player, quicksort
+from my_sort_in_place import Player, quicksort
 
 
 if __name__ == '__main__':
     number = int(input())
-    arr = []
+    list_of_players = []
     for i in range(number):
         a, b, c = input().split()
-        arr.append(Player(a, int(b), int(c)))
-    quicksort(arr, 0, number)
-    print(*arr, sep='\n')
+        list_of_players.append(Player(a, int(b), int(c)))
+    quicksort(list_of_players, 0, number)
+    print(*list_of_players, sep='\n')
