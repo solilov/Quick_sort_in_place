@@ -12,7 +12,6 @@
 ## Пример 1
 Input:
 ```
-$ python ./main.py
 5
 alla 4 100
 gena 6 1000
@@ -32,7 +31,6 @@ rita
 ## Пример 2
 Input:
 ```
-$ python ./main.py
 5
 alla 0 0
 gena 0 0
@@ -49,6 +47,10 @@ rita
 timofey
 ```
 
+## Запуск
+```
+python3 main.py
+```
 
 ## Зависимости
 Python >= 3.7
